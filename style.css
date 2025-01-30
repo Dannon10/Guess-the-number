@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: auto;
+    overflow-y: auto;
+    box-sizing: inherit;
+}
+
+body{
+    background-color: black;
+    font-size: 1.5rem;
+    color: white;
+    height: 100dvh;
+    transition: all .5s ease-in;
+    font-family: "Press Start 2P", "sans-serif";
+}
+
+.container{
+    display: flex;
+    height: 90dvh;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.btn-again{
+    width: 8rem;
+    height: 3.5rem;
+    font-family: "Press Start 2P", "sans-serif";
+    font-size: 1rem;
+    font-weight: bold;
+    outline: .1rem solid white;
+    outline-offset: .5rem;
+}
+
+#bet{
+    font-size: 1rem;
+}
+
+.head{
+    margin-top: 4rem;
+}
+
+#gues{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.secret-number{
+    color: white;
+    font-size: 3rem;
+    margin: 2rem 0;
+    text-align: center;
+    transition: all .4s ease-in;
+}
+
+.guess:focus{
+    outline: none;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.guess-sect{
+    display: flex;
+    flex-direction: column;
+    color: rgb(228, 72, 72);
+}
+
+.guess{
+    width: 10rem;
+    height: 3rem;
+    margin: 2rem 0;
+    padding: .1rem;
+    border-radius: .5rem;
+    border: none;
+}
+.result{
+    /* margin-left: 2rem; */
+}
+
+.check{
+    background-color: white;
+    border: none;
+    font-family: "Press Start 2P", "sans-serif";
+    font-size: 1rem;
+    font-weight: bold;
+    width: 8rem;
+    height: 3.5rem;
+    outline: .1rem solid white;
+    outline-offset: .5rem;
+}
+
+.message{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.score{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.highscore{
+    font-size: 1rem;
+}
+
+@media (min-width: 1024px) {
+    
+    .btn-again{
+        width: 12rem;
+        font-size: 1.5rem;
+        height: 4.5rem;
+    }
+
+    #bet{
+        font-size: 1.5rem;
+    }
+
+    #gues{
+        font-size: 4.5rem;
+    }
+
+    .secret-number{
+        font-size: 5rem;
+    }
+
+    .guess{
+        width: 20rem;
+        height: 2.8rem;
+        font-size: 1.7rem;
+        padding: 1rem;
+    }
+
+
+    .check{
+        font-size: 1.5rem;
+        width: 12rem;
+        height: 4.5rem;
+    }
+
+    .message{
+        font-size: 1.9rem;
+    }
+
+    .score{
+        font-size: 1.8rem;
+    }
+
+    .highscore{
+        font-size: 1.8rem;
+    }
+}
