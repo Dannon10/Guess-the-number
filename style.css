@@ -54,13 +54,13 @@ body{
 }
 
 #gues{
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
 }
 
 .secret-number{
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 2rem 0;
     text-align: center;
     transition: all .4s ease-in;
@@ -83,15 +83,12 @@ body{
 }
 
 .guess{
-    width: 10rem;
-    height: 3rem;
+    width: 13rem;
+    height: 5rem;
     margin: 2rem 0;
     padding: .1rem;
     border-radius: .5rem;
     border: none;
-}
-.result{
-    /* margin-left: 2rem; */
 }
 
 .check{
@@ -100,24 +97,24 @@ body{
     font-family: "Press Start 2P", "sans-serif";
     font-size: 1rem;
     font-weight: bold;
-    width: 8rem;
-    height: 3.5rem;
+    width: 12rem;
+    height: 5rem;
     outline: .1rem solid white;
     outline-offset: .5rem;
 }
 
 .message{
-    font-size: 1.3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 .score{
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     margin-bottom: 1rem;
 }
 
 .highscore{
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 @media (min-width: 1024px) {
